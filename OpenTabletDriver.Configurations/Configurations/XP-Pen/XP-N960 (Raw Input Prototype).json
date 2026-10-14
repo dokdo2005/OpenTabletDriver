@@ -1,0 +1,30 @@
+{
+  "Name": "XP-Pen XP-N960 (Windows Raw Input Prototype)",
+  "Specifications": {
+    "Digitizer": {
+      "Width": 212.0,
+      "Height": 135.0,
+      "MaxX": 2048,
+      "MaxY": 2048
+    },
+    "Pen": {
+      "MaxPressure": 2047,
+      "ButtonCount": 1
+    }
+  },
+  "Attributes": {
+    "SkipTests": "LPI_DIGITIZER_X,LPI_DIGITIZER_Y,LPI_SAME_ACROSS_AXES"
+  },
+  "DigitizerIdentifiers": [
+    {
+      "VendorID": 21827,
+      "ProductID": 12293,
+      "InputReportLength": 8,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XpN960RawInputReportParser",
+      "Attributes": {
+        "Interface": "1",
+        "HidReports": "0A:000D:0002"
+      }
+    }
+  ]
+}
